@@ -96,8 +96,24 @@
 //     for (let i = max; i >= min; i--) {
 //         console.log(i);
 //         if (i % 2 === 0) {
-//             totalSum += i; 
+//             totalSum += i;
 //        }
 //     }
 //     return totalSum;
 // }
+
+// Напишіть функцію min(a, b), яка приймає 2 числа і повертає меньше з них.
+// Потрібно додати перевірку, що функція отримує саме числа, в іншому випадку
+// повертати з функції рядок - 'Not a number!'.
+
+// function min(a, b) {
+//     const c = Number(min);
+//     if (a < b) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+//     return `Not a number!`
+// }
+
+// min(10, 50);
